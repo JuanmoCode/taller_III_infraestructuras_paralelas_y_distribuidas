@@ -8,7 +8,7 @@ IVA = 0.19              # impuesto
 COMISION = 0.03         # comisión de la pasarela de pago
 MARGEN_COSTO = 0.55     # el costo de producción es el 55 % del precio
 TAMANO_LOTE = 500       # cada cuántos registros se consulta el servicio de promociones/impuestos
-LATENCIA_MS = 5.0       # espera simulada (E/S) de esa consulta, en milisegundos
+LATENCIA_MS = 0      # espera simulada (E/S) de esa consulta, en milisegundos
 
 
 def calcular_venta(cantidad, precio):
